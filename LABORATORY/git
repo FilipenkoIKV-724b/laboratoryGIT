@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+	 double z1, z2,m;
+	cout << "Please enter number m " << endl;
+	cin >> m;
+	z1 = (sqrt(pow((3 * m + 2), 2) - 24 * m)) / (3 * sqrt(m) - (2 / sqrt(2)));
+	z2 = (-sqrt(m));
+	cout << "z1 = " << z1 << endl;
+	cout << "z2 = " << z2 << endl;
+}
